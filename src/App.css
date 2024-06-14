@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+body {
+  background: #000;
+  /* padding-bottom: 500px; */
+}
+
+html {
+  font-size: 16px;
+}
+
+#brand {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, #6e41f7 0%, #f642d7 100%);
+  background-clip: text;
+}
+
+@media screen and (max-width: 1224px) {
+  html {
+    font-size: 8px !important;
+  }
+}
