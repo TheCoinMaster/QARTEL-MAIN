@@ -52,6 +52,6 @@ const styles = {
   menuTxt: {
     fontFamily: "Exo",
     cursor: "pointer",
-    fontSize: "1rem",
+    fontSize: "2rem",
   },
 };
