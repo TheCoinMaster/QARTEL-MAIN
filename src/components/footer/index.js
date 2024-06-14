@@ -23,7 +23,7 @@ const Footer = () => {
         {/* Social Media Button */}
         <div style={styles.socialIcons}>
           <img src={twitter} alt="Image" onClick={(e) => window.open('https://x.com/qomqartel', '_blank')} target="_blank" />
-          <img src={vimeo} alt="Image" onClick={(e) => window.open('https://vimeo.com/', '_blank')} target="_blank" />
+          <img src={vimeo} alt="Image" onClick={(e) => window.open('https://t.me/QOMQartel', '_blank')} target="_blank" />
         </div>
       </div>
 
