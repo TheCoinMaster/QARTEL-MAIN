@@ -29,7 +29,7 @@ const styles = {
   descriptionTxt: {
     width: "100%",
     color: "white",
-    maxWidth: "40%",
+    maxWidth: "50%",
     textAlign: "center",
     fontFamily: "Rajdhani",
   },
