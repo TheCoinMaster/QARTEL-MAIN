@@ -41,7 +41,6 @@ const styles = {
     // positiion: "relative",
     alignItems: "center",
     alignContent: "center",
-    alignSelf: "center"
-    fontSize: "2rem",
+    alignSelf: "center",
   },
 };
