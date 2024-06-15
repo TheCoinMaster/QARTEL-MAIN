@@ -32,7 +32,7 @@ const styles = {
     maxWidth: "60%",
     textAlign: "center",
     fontFamily: "Rajdhani",
-    fontSize: "2rem",
+    fontSize: "1.8rem",
   },
   description2: {
     paddingTop: 10,
