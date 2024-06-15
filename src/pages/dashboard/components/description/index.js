@@ -29,10 +29,10 @@ const styles = {
   descriptionTxt: {
     width: "100%",
     color: "white",
-    maxWidth: "45%",
+    maxWidth: "60%",
     textAlign: "center",
     fontFamily: "Rajdhani",
-    fontSize: "35",
+    fontSize: "50",
   },
   description2: {
     paddingTop: 10,
