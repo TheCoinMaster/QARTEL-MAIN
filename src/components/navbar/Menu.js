@@ -11,7 +11,7 @@ const MENU = [
     name: "Marketplace",
   },
   {
-    name: "Soon",
+    name: "Staking",
   },
 ];
 
