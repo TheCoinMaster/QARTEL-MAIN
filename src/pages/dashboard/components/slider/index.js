@@ -18,7 +18,7 @@ const Slider = () => {
 
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
-          CASINO & NFT
+          CASINO & NFTs
         </span>
       </div>
       {
