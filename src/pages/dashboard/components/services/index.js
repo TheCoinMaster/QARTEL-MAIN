@@ -60,18 +60,7 @@ const Services = () => {
       </div>
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
-1. Go to: </BR>
-   https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum
-</BR>
-2. When you have WQOM, bridge it to QOM chain via: </BR>
-   https://bridge.qom.one/
-</BR>
-3. Add chain to metamask: </BR>
-   https://chainlist.org/?search=Qom
-</BR>
-4. Profit: </BR>
-   https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum
-   </BR>
+        COMING SOON
         </span>
       </div>
       <div style={styles.empty}>
