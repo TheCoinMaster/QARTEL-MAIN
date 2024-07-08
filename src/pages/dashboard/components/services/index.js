@@ -55,12 +55,22 @@ const Services = () => {
         </div>
 
         <div style={styles.title}>
-          <OutlinedText strokeWidth={0.7} strokeColor={"#12D6DF"}>COMPS</OutlinedText>
+          <OutlinedText strokeWidth={0.7} strokeColor={"#12D6DF"}>HOW TO BUY</OutlinedText>
         </div>
       </div>
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
-          Coming Soon
+1. Go to: 
+   https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum
+
+2. When you have WQOM, bridge it to QOM chain via:
+   https://bridge.qom.one/
+
+3. Add chain to metamask: 
+   https://chainlist.org/?search=Qom
+
+4. Profit:
+   https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum
         </span>
       </div>
       <div style={styles.empty}>
