@@ -62,6 +62,9 @@ const Services = () => {
         <span id="brand" style={styles.brand}>
         COMING SOON
         </span>
+        <span id="brand" style={styles.brand}>
+        COMING SOON
+        </span>
       </div>
       <div style={styles.empty}>
         <div style={styles.rightLine}></div>
