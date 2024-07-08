@@ -61,7 +61,7 @@ const Services = () => {
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
         COMING SOON
-        </span>
+        </span></br>
         <span id="brand" style={styles.brand}>
         COMING SOON
         </span>
