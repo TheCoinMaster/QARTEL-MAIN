@@ -61,13 +61,12 @@ const Services = () => {
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
 <ul>
-  <h3>Phase One:</h3>
   <li>1. Goto: <a href="https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum">Click Here</a></li>
   <li>2. When you have WQOM, bridge it to QOM chain via: <a href="https://bridge.qom.one/">Click Here</a></li>
   <li>3. Add chain to metamask: <a href="https://chainlist.org/?search=Qom">Click Here</a></li>
   <li>4. Profit</li>
-
-<br/>
+</ul>
+<ul>
   <h3>Phase One:</h3>
   <li>- 2222 NFT Mint</li>
   <li>- Token Launch</li>
