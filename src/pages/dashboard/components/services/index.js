@@ -66,8 +66,8 @@ const Services = () => {
   <li>2. When you have WQOM, bridge it to QOM chain via: <a href="https://bridge.qom.one/">Click Here</a></li></li>
   <li>3. Add chain to metamask: <a href="https://chainlist.org/?search=Qom">Click Here</a></li>
   <li>4. Profit</li>
-</ul>
-<ul>
+
+<br/>
   <h3>Phase One:</h3>
   <li>- 2222 NFT Mint</li>
   <li>- Token Launch</li>
