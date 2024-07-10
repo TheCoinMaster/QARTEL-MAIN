@@ -61,12 +61,12 @@ const Services = () => {
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
         <ul>
-  <h1>Phase One:</h1>
-  <li>2222 NFT Mint</li>
-  <li>Token Launch</li>
-  <li>QARTEL Slots</li>
-  <li>NFT Staking. Boosted QOM Pool/Casino Revenue</li>
-  <li>Token Staking For QOM Pool</li>
+  <h3>Phase One:</h3>
+  <li>- 2222 NFT Mint</li>
+  <li>- Token Launch</li>
+  <li>- QARTEL Slots</li>
+  <li>- NFT Staking. Boosted QOM Pool/Casino Revenue</li>
+  <li>- Token Staking For QOM Pool</li>
 </ul>
         </span>
       </div>
