@@ -60,6 +60,13 @@ const Services = () => {
       </div>
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
+  <ul>
+  <li>1. Goto: <a href="https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum">Click Here</a></li>
+  <li>2. When you have WQOM, bridge it to QOM chain via: <a href="https://bridge.qom.one/">Click Here</a></li>
+  <li>3. Add chain to metamask: <a href="https://chainlist.org/?search=Qom">Click Here</a></li>
+  <li>4. Profit</li>
+</ul>
+  
 <ul>
   <h3>Phase One:</h3>
   <li>- 2222 NFT Mint</li>
@@ -76,21 +83,7 @@ const Services = () => {
         <div style={styles.leftGreen}></div>
       </div>
 
-  <div style={styles.brandWrap}>
-        <span id="brand" style={styles.brand}>
-<ul>
-  <li>1. Goto: <a href="https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum">Click Here</a></li>
-  <li>2. When you have WQOM, bridge it to QOM chain via: <a href="https://bridge.qom.one/">Click Here</a></li>
-  <li>3. Add chain to metamask: <a href="https://chainlist.org/?search=Qom">Click Here</a></li>
-  <li>4. Profit</li>
-</ul>>
-        </span>
-      </div>
-      <div style={styles.empty}>
-        <div style={styles.rightLine}></div>
-        <div style={styles.rightPink}></div>
-        <div style={styles.leftGreen}></div>
-      </div>
+ 
 
     </>
   );
