@@ -16,7 +16,7 @@ const MENU = [
 ];
 
 const Menue = () => {
-  const [selected, setSelected] = useState("Casino");
+  const [selected, setSelected] = useState("About");
   return (
     <div style={styles.wrapper}>
       {MENU.map((menu) => (
