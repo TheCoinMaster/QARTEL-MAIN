@@ -8,7 +8,7 @@ const MENU = [
     name: "Casino", 
   },
   {
-    name: "NFTS", <a href="https://bridge.qom.one/">Click Here</a>
+    name: "NFTS",
   },
   {
     name: "Staking",
