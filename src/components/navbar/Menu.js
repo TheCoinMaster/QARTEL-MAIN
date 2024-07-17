@@ -36,7 +36,6 @@ const Menue = () => {
     </div>
   );
 };
-
 export default Menue;
 
 const styles = {
