@@ -8,7 +8,7 @@ const MENU = [
     name: "Casino",
   },
   {
-    name: "Marketplace",
+    name: "NFTS",
   },
   {
     name: "Staking",
