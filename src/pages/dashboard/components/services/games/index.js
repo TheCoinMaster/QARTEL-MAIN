@@ -10,14 +10,17 @@ const GAMES = [
   {
     name: "spin and win",
     photo: spinner,
+    link: "",
   },
   {
     name: "roulette",
     photo: roulette,
+    link: "",
   },
   {
     name: "slots",
     photo: slots,
+    link: "https://qartel.app/casino/games/slots",
   },
 ];
 
@@ -28,20 +31,18 @@ const Games = () => {
   return (
     <div style={styles.wrapper(isMobile)}>
       {GAMES.map((game) => (
-        <div style={styles.gameWrapper}>
+        <div style={styles.gameWrapper} key={game.name}>
           <div style={styles.inner}>
             <div style={styles.imgWrapper}>
-
               <img src={game.photo} alt="" style={styles.img} />
             </div>
             <div style={styles.qartelWrapper}>
               <img src={qartel2} alt="" style={styles.qartel2} />
               <p style={styles.name}>{game.name}</p>
               {/* Play Game Button */}
-              <div style={styles.tile} onClick={() => { }}>
+              <a href={game.link} style={styles.tile}>
                 <img src={playTile} style={styles.playTile} alt="" />
-              </div>
-              
+              </a>
             </div>
           </div>
         </div>
@@ -89,7 +90,6 @@ const styles = {
   },
   qartelWrapper: {
     display: "flex",
-    // justifyContent: "center",
     alignItems: "center",
     position: "relative",
     flexDirection: "column",

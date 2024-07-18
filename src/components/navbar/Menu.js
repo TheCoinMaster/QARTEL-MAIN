@@ -3,15 +3,19 @@ import React, { useState } from "react";
 const MENU = [
   {
     name: "About",
+    link: "/about",
   },
   {
-    name: "Casino", 
+    name: "Casino",
+    link: "https://qartel.app/casino",
   },
   {
     name: "NFTS",
+    link: "https://nft.qartel.app",
   },
   {
     name: "Staking",
+    link: "#",
   },
 ];
 
@@ -20,17 +24,19 @@ const Menue = () => {
   return (
     <div style={styles.wrapper}>
       {MENU.map((menu) => (
-        <div style={styles.menu}>
-          <span
+        <div style={styles.menu} key={menu.name}>
+          <a
+            href={menu.link}
             onClick={() => setSelected(menu.name)}
             style={{
               ...styles.menuTxt,
               fontWeight: selected === menu.name ? 600 : 400,
               color: selected === menu.name ? "#FF00D6" : "#75FFFF",
+              textDecoration: "none",
             }}
           >
             {menu.name}
-          </span>
+          </a>
         </div>
       ))}
     </div>
