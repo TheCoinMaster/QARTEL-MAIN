@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const MENU = [
   {
@@ -20,17 +20,25 @@ const MENU = [
 ];
 
 const Menue = () => {
-  const [selected, setSelected] = useState("About");
+  const [selected, setSelected] = useState(() => {
+    return localStorage.getItem("selectedMenu") || "About";
+  });
+
+  useEffect(() => {
+    localStorage.setItem("selectedMenu", selected);
+  }, [selected]);
+
+  const handleClick = (menuName) => {
+    setSelected(menuName);
+  };
+
   return (
     <div style={styles.wrapper}>
       {MENU.map((menu) => (
-        <div
-          style={styles.menu}
-          key={menu.name}
-          onClick={() => setSelected(menu.name)}
-        >
+        <div style={styles.menu} key={menu.name}>
           <a
             href={menu.link}
+            onClick={() => handleClick(menu.name)}
             style={{
               ...styles.menuTxt,
               fontWeight: selected === menu.name ? 600 : 400,
@@ -45,6 +53,7 @@ const Menue = () => {
     </div>
   );
 };
+
 export default Menue;
 
 const styles = {
