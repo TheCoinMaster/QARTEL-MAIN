@@ -32,13 +32,21 @@ const Menue = () => {
     setSelected(menuName);
   };
 
+  const handleTouch = (menuName) => {
+    setSelected(menuName);
+  };
+
   return (
     <div style={styles.wrapper}>
       {MENU.map((menu) => (
-        <div style={styles.menu} key={menu.name}>
+        <div
+          style={styles.menu}
+          key={menu.name}
+          onClick={() => handleClick(menu.name)}
+          onTouchStart={() => handleTouch(menu.name)}
+        >
           <a
             href={menu.link}
-            onClick={() => handleClick(menu.name)}
             style={{
               ...styles.menuTxt,
               fontWeight: selected === menu.name ? 600 : 400,
