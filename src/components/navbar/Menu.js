@@ -24,10 +24,13 @@ const Menue = () => {
   return (
     <div style={styles.wrapper}>
       {MENU.map((menu) => (
-        <div style={styles.menu} key={menu.name}>
+        <div
+          style={styles.menu}
+          key={menu.name}
+          onClick={() => setSelected(menu.name)}
+        >
           <a
             href={menu.link}
-            onClick={() => setSelected(menu.name)}
             style={{
               ...styles.menuTxt,
               fontWeight: selected === menu.name ? 600 : 400,
