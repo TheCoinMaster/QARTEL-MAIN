@@ -12,7 +12,6 @@ import leftGreen from "../../../../assets/left-green.png";
 import Games from "./games";
 import { styled } from 'styled-components';
 
-
 const OutlinedText = styled.span`
   font-size: 4.5rem;
   font-style: normal;
@@ -60,22 +59,20 @@ const Services = () => {
       </div>
       <div style={styles.brandWrap}>
         <span id="brand" style={styles.brand}>
-  <ul>
-   <h3>Steps To Buy:</h3>
-  <li>1. Goto: <a href="https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum">Click Here</a></li>
-  <li>2. When you have WQOM, bridge it to QOM chain via: <a href="https://bridge.qom.one/">Click Here</a></li>
-  <li>3. Add chain to metamask: <a href="https://chainlist.org/?search=Qom">Click Here</a></li>
-  <li>4. Profit</li>
-</ul>
-  
-<ul>
-  <h3>Phase One:</h3>
-  <li>- 2222 NFT Mint</li>
-  <li>- Token Launch</li>
-  <li>- QARTEL Slots</li>
-  <li>- NFT Staking. Boosted QOM Pool/Casino Revenue</li>
-  <li>- Token Staking For QOM Pool</li>
-</ul>
+          <ul>
+            <li>1. Goto: <a className="blinking" href="https://app.uniswap.org/swap?outputCurrency=0xB39cf0E19858b5fD3329a91F95A100409c69772A&chain=ethereum">Click Here</a></li>
+            <li>2. When you have WQOM, bridge it to QOM chain via: <a className="blinking" href="https://bridge.qom.one/">Click Here</a></li>
+            <li>3. Add chain to metamask: <a className="blinking" href="https://chainlist.org/?search=Qom">Click Here</a></li>
+            <li>4. Profit</li>
+          </ul>
+          <ul>
+            <h3>Phase One:</h3>
+            <li>- 2222 NFT Mint</li>
+            <li>- Token Launch</li>
+            <li>- QARTEL Slots</li>
+            <li>- NFT Staking. Boosted QOM Pool/Casino Revenue</li>
+            <li>- Token Staking For QOM Pool</li>
+          </ul>
         </span>
       </div>
       <div style={styles.empty}>
@@ -83,9 +80,6 @@ const Services = () => {
         <div style={styles.rightPink}></div>
         <div style={styles.leftGreen}></div>
       </div>
-
- 
-
     </>
   );
 };
@@ -203,6 +197,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     paddingTop: 50,
+    width: "100%",
   },
   gameName: {
     color: "transparent",
@@ -210,8 +205,6 @@ const styles = {
     fontOpticalsizing: "auto",
     fontWeight: 900,
     fontSize: "4rem",
-    // fontStyle: "normal",
-    // outerWidth: 2,
     WebkitTextStrokeWidth: "2px",
     WebkitTextStrokeColor: "#12D6DF",
   },
@@ -234,7 +227,7 @@ const styles = {
   },
   innerWrapper: {
     width: "100%",
-    background: 'black'
+    background: 'black',
   },
   empty: {
     paddingTop: 700,
@@ -245,12 +238,14 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    // gap: 20,
+    textAlign: "center",
+    flexDirection: "column",
   },
   brand: {
     fontSize: "4rem",
     fontFamily: "Audiowide",
     fontOpticalsizing: "auto",
     fontStyle: "normal",
+    textAlign: "center",
   },
 };
