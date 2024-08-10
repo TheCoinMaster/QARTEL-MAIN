@@ -15,7 +15,7 @@ const MENU = [
   },
   {
     name: "Staking",
-    link: "#",
+    link: "https://stake.qartel.app",
   },
 ];
 
